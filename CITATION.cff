@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code or the deposited data, please cite the accompanying manuscript."
+title: "Auditing the Validity of RUL Prediction Intervals under Cross-Condition Deployment: A Protocol and the CDN-RUL Reference Model"
+authors:
+  - family-names: "Wang"
+    given-names: "Dawei"
+    orcid: "https://orcid.org/0000-0001-9323-0144"
+  - family-names: "Wang"
+    given-names: "Yalin"
+    orcid: "https://orcid.org/0009-0001-0294-2523"
+  - family-names: "Wang"
+    given-names: "Ben"
+    orcid: "https://orcid.org/0009-0009-5152-1336"
+  - family-names: "Huang"
+    given-names: "Xin"
+    orcid: "https://orcid.org/0009-0000-1929-3972"
+type: software
+license: MIT
+references:
+  - type: data
+    title: "CDN-RUL: per-seed metrics, conformal evaluation and maintenance-decision artifacts"
+    doi: 10.5281/zenodo.22850160
+    authors:
+      - family-names: "Wang"
+        given-names: "Dawei"
+      - family-names: "Wang"
+        given-names: "Yalin"
+      - family-names: "Wang"
+        given-names: "Ben"
+      - family-names: "Huang"
+        given-names: "Xin"

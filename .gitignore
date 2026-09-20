@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+data/raw/
+*.h5
+*.pt
+results/figures/*.png
+.DS_Store

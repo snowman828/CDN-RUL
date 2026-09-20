@@ -1,0 +1,177 @@
+{
+  "FD001": {
+    "n_seeds": 5,
+    "group_conditional": {
+      "coverage_mean": 0.898,
+      "coverage_std": 0.026,
+      "width_mean": 0.3634,
+      "width_std": 0.026
+    },
+    "marginal": {
+      "coverage_mean": 0.898,
+      "coverage_std": 0.026,
+      "width_mean": 0.3634,
+      "width_std": 0.026
+    },
+    "per_group_avg": {
+      "0": {
+        "coverage_mean": 0.898,
+        "coverage_std": 0.026,
+        "coverage_marginal_mean": 0.898
+      }
+    }
+  },
+  "FD002": {
+    "n_seeds": 5,
+    "group_conditional": {
+      "coverage_mean": 0.804,
+      "coverage_std": 0.027,
+      "width_mean": 0.2746,
+      "width_std": 0.0167
+    },
+    "marginal": {
+      "coverage_mean": 0.804,
+      "coverage_std": 0.027,
+      "width_mean": 0.2746,
+      "width_std": 0.0167
+    },
+    "per_group_avg": {
+      "0": {
+        "coverage_mean": 0.88,
+        "coverage_std": 0.17,
+        "coverage_marginal_mean": 0.88
+      },
+      "1": {
+        "coverage_mean": 0.93,
+        "coverage_std": 0.14,
+        "coverage_marginal_mean": 0.93
+      },
+      "3": {
+        "coverage_mean": 0.801,
+        "coverage_std": 0.025,
+        "coverage_marginal_mean": 0.801
+      },
+      "5": {
+        "coverage_mean": 0.88,
+        "coverage_std": 0.04,
+        "coverage_marginal_mean": 0.88
+      },
+      "4": {
+        "coverage_mean": 1.0,
+        "coverage_std": NaN,
+        "coverage_marginal_mean": 1.0
+      }
+    }
+  },
+  "FD003": {
+    "n_seeds": 5,
+    "group_conditional": {
+      "coverage_mean": 0.846,
+      "coverage_std": 0.047,
+      "width_mean": 0.2984,
+      "width_std": 0.0224
+    },
+    "marginal": {
+      "coverage_mean": 0.846,
+      "coverage_std": 0.047,
+      "width_mean": 0.2984,
+      "width_std": 0.0224
+    },
+    "per_group_avg": {
+      "0": {
+        "coverage_mean": 0.846,
+        "coverage_std": 0.047,
+        "coverage_marginal_mean": 0.846
+      }
+    }
+  },
+  "FD004": {
+    "n_seeds": 5,
+    "group_conditional": {
+      "coverage_mean": 0.749,
+      "coverage_std": 0.034,
+      "width_mean": 0.2816,
+      "width_std": 0.0112
+    },
+    "marginal": {
+      "coverage_mean": 0.749,
+      "coverage_std": 0.034,
+      "width_mean": 0.2816,
+      "width_std": 0.0112
+    },
+    "per_group_avg": {
+      "0": {
+        "coverage_mean": 0.891,
+        "coverage_std": 0.152,
+        "coverage_marginal_mean": 0.891
+      },
+      "4": {
+        "coverage_mean": 0.87,
+        "coverage_std": 0.15,
+        "coverage_marginal_mean": 0.87
+      },
+      "5": {
+        "coverage_mean": 0.789,
+        "coverage_std": 0.059,
+        "coverage_marginal_mean": 0.789
+      },
+      "1": {
+        "coverage_mean": 0.875,
+        "coverage_std": NaN,
+        "coverage_marginal_mean": 0.875
+      },
+      "3": {
+        "coverage_mean": 0.743,
+        "coverage_std": NaN,
+        "coverage_marginal_mean": 0.743
+      }
+    }
+  },
+  "DS02": {
+    "n_seeds": 5,
+    "group_conditional": {
+      "coverage_mean": 0.844,
+      "coverage_std": 0.146,
+      "width_mean": 0.2572,
+      "width_std": 0.0885
+    },
+    "marginal": {
+      "coverage_mean": 0.846,
+      "coverage_std": 0.143,
+      "width_mean": 0.2492,
+      "width_std": 0.0854
+    },
+    "per_group_avg": {
+      "0": {
+        "coverage_mean": 0.822,
+        "coverage_std": 0.146,
+        "coverage_marginal_mean": 0.835
+      },
+      "1": {
+        "coverage_mean": 0.808,
+        "coverage_std": 0.16,
+        "coverage_marginal_mean": 0.834
+      },
+      "2": {
+        "coverage_mean": 0.887,
+        "coverage_std": 0.132,
+        "coverage_marginal_mean": 0.836
+      },
+      "3": {
+        "coverage_mean": 0.903,
+        "coverage_std": 0.07,
+        "coverage_marginal_mean": 0.882
+      },
+      "4": {
+        "coverage_mean": 0.878,
+        "coverage_std": 0.137,
+        "coverage_marginal_mean": 0.864
+      },
+      "5": {
+        "coverage_mean": 0.79,
+        "coverage_std": 0.24,
+        "coverage_marginal_mean": 0.837
+      }
+    }
+  }
+}

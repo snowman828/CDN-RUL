@@ -1,0 +1,243 @@
+{
+  "subset": "DS02",
+  "note": "Coverage is computed over stride-1 overlapping windows drawn from three test engines. Window-level statistics treat these as independent and are therefore anti-conservatively narrow; engine-level statistics are the deployment-relevant ones.",
+  "n_seeds": 5,
+  "n_test_engines": 3,
+  "n_test_windows": 125228,
+  "per_seed": [
+    {
+      "seed": 42,
+      "n_cal": 85266,
+      "q": 2.6362,
+      "n_test_windows": 125228,
+      "coverage_pooled_window_level": 0.6883,
+      "coverage_engine_mean": 0.6897,
+      "coverage_engine_std": 0.0937,
+      "per_engine": {
+        "11": {
+          "n_windows": 66301,
+          "coverage": 0.6276,
+          "act": 926.6,
+          "n_eff": 71.6
+        },
+        "14": {
+          "n_windows": 15629,
+          "coverage": 0.644,
+          "act": 1201.9,
+          "n_eff": 13.0
+        },
+        "15": {
+          "n_windows": 43298,
+          "coverage": 0.7974,
+          "act": 204.7,
+          "n_eff": 211.6
+        }
+      },
+      "n_eff_total": 296.1,
+      "cluster_bootstrap_ci95": [
+        0.6276,
+        0.7974
+      ],
+      "block_bootstrap_ci95": [
+        0.6532,
+        0.7315
+      ],
+      "naive_binomial_ci95": [
+        0.6858,
+        0.6909
+      ]
+    },
+    {
+      "seed": 2024,
+      "n_cal": 103293,
+      "q": 5.9295,
+      "n_test_windows": 125228,
+      "coverage_pooled_window_level": 0.9713,
+      "coverage_engine_mean": 0.9753,
+      "coverage_engine_std": 0.0151,
+      "per_engine": {
+        "11": {
+          "n_windows": 66301,
+          "coverage": 0.9731,
+          "act": 1444.6,
+          "n_eff": 45.9
+        },
+        "14": {
+          "n_windows": 15629,
+          "coverage": 0.9914,
+          "act": 107.8,
+          "n_eff": 144.9
+        },
+        "15": {
+          "n_windows": 43298,
+          "coverage": 0.9614,
+          "act": 1437.4,
+          "n_eff": 30.1
+        }
+      },
+      "n_eff_total": 220.9,
+      "cluster_bootstrap_ci95": [
+        0.9614,
+        0.9914
+      ],
+      "block_bootstrap_ci95": [
+        0.958,
+        0.9954
+      ],
+      "naive_binomial_ci95": [
+        0.9704,
+        0.9723
+      ]
+    },
+    {
+      "seed": 7,
+      "n_cal": 76767,
+      "q": 4.828,
+      "n_test_windows": 125228,
+      "coverage_pooled_window_level": 0.9589,
+      "coverage_engine_mean": 0.9501,
+      "coverage_engine_std": 0.0302,
+      "per_engine": {
+        "11": {
+          "n_windows": 66301,
+          "coverage": 0.9579,
+          "act": 134.8,
+          "n_eff": 492.0
+        },
+        "14": {
+          "n_windows": 15629,
+          "coverage": 0.9168,
+          "act": 309.6,
+          "n_eff": 50.5
+        },
+        "15": {
+          "n_windows": 43298,
+          "coverage": 0.9756,
+          "act": 221.1,
+          "n_eff": 195.8
+        }
+      },
+      "n_eff_total": 738.3,
+      "cluster_bootstrap_ci95": [
+        0.9168,
+        0.9756
+      ],
+      "block_bootstrap_ci95": [
+        0.9489,
+        0.9678
+      ],
+      "naive_binomial_ci95": [
+        0.9578,
+        0.96
+      ]
+    },
+    {
+      "seed": 123,
+      "n_cal": 85266,
+      "q": 4.1946,
+      "n_test_windows": 125228,
+      "coverage_pooled_window_level": 0.6907,
+      "coverage_engine_mean": 0.7315,
+      "coverage_engine_std": 0.1785,
+      "per_engine": {
+        "11": {
+          "n_windows": 66301,
+          "coverage": 0.5413,
+          "act": 1498.1,
+          "n_eff": 44.3
+        },
+        "14": {
+          "n_windows": 15629,
+          "coverage": 0.7577,
+          "act": 822.9,
+          "n_eff": 19.0
+        },
+        "15": {
+          "n_windows": 43298,
+          "coverage": 0.8954,
+          "act": 1383.0,
+          "n_eff": 31.3
+        }
+      },
+      "n_eff_total": 94.6,
+      "cluster_bootstrap_ci95": [
+        0.5413,
+        0.8954
+      ],
+      "block_bootstrap_ci95": [
+        0.6383,
+        0.7478
+      ],
+      "naive_binomial_ci95": [
+        0.6882,
+        0.6933
+      ]
+    },
+    {
+      "seed": 99,
+      "n_cal": 76767,
+      "q": 12.1145,
+      "n_test_windows": 125228,
+      "coverage_pooled_window_level": 0.9154,
+      "coverage_engine_mean": 0.8882,
+      "coverage_engine_std": 0.0916,
+      "per_engine": {
+        "11": {
+          "n_windows": 66301,
+          "coverage": 0.914,
+          "act": 112.5,
+          "n_eff": 589.3
+        },
+        "14": {
+          "n_windows": 15629,
+          "coverage": 0.7865,
+          "act": 1158.1,
+          "n_eff": 13.5
+        },
+        "15": {
+          "n_windows": 43298,
+          "coverage": 0.9642,
+          "act": 100.4,
+          "n_eff": 431.4
+        }
+      },
+      "n_eff_total": 1034.2,
+      "cluster_bootstrap_ci95": [
+        0.7865,
+        0.9642
+      ],
+      "block_bootstrap_ci95": [
+        0.9003,
+        0.9315
+      ],
+      "naive_binomial_ci95": [
+        0.9139,
+        0.917
+      ]
+    }
+  ],
+  "window_level": {
+    "coverage_mean": 0.8449,
+    "coverage_std_over_seeds": 0.1434,
+    "naive_binomial_ci95": [
+      0.8429,
+      0.8469
+    ],
+    "ci95_width": 0.00401
+  },
+  "engine_level": {
+    "coverage_mean": 0.847,
+    "coverage_std_over_seeds": 0.1293,
+    "between_engine_std_mean": 0.0818,
+    "per_engine_coverage_range": [
+      0.5413,
+      0.9914
+    ]
+  },
+  "effective_sample_size": {
+    "n_windows_pooled": 125228,
+    "n_engines": 3,
+    "n_eff_total_mean_over_seeds": 476.8,
+    "reduction_factor": 262.6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "model": "physdec",
+  "subset": "FD002",
+  "tag": "k3",
+  "seed": 42,
+  "use_physics": true,
+  "use_orthogonal": true,
+  "rmse": 28.75,
+  "nasa_score": 11292.4,
+  "device": "cuda",
+  "epochs_used": 20,
+  "train_time_s": 26.5,
+  "mc90_coverage": 0.815,
+  "mc_mean_ci_width": 62.07
+}

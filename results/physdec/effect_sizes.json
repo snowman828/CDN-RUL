@@ -1,0 +1,52 @@
+{
+  "FD001": {
+    "mean_diff": -0.739,
+    "ci95_low": -2.094,
+    "ci95_high": 0.616,
+    "t": -1.515,
+    "p": 0.2044,
+    "cohen_dz": -0.678,
+    "direction": "\u57fa\u7ebf\u4f18",
+    "magnitude": "\u5927"
+  },
+  "FD002": {
+    "mean_diff": -0.167,
+    "ci95_low": -0.666,
+    "ci95_high": 0.332,
+    "t": -0.93,
+    "p": 0.405,
+    "cohen_dz": -0.416,
+    "direction": "\u57fa\u7ebf\u4f18",
+    "magnitude": "\u4e2d"
+  },
+  "FD003": {
+    "mean_diff": -0.205,
+    "ci95_low": -1.097,
+    "ci95_high": 0.686,
+    "t": -0.64,
+    "p": 0.5572,
+    "cohen_dz": -0.286,
+    "direction": "\u57fa\u7ebf\u4f18",
+    "magnitude": "\u4e2d"
+  },
+  "FD004": {
+    "mean_diff": 0.561,
+    "ci95_low": -0.089,
+    "ci95_high": 1.211,
+    "t": 2.395,
+    "p": 0.0748,
+    "cohen_dz": 1.071,
+    "direction": "PhysDec\u4f18",
+    "magnitude": "\u5f88\u5927"
+  },
+  "DS02": {
+    "mean_diff": 1.063,
+    "ci95_low": -0.213,
+    "ci95_high": 2.339,
+    "t": 2.313,
+    "p": 0.0818,
+    "cohen_dz": 1.034,
+    "direction": "PhysDec\u4f18",
+    "magnitude": "\u5f88\u5927"
+  }
+}

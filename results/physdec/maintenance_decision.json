@@ -1,0 +1,30 @@
+{
+  "subset": "FD002",
+  "tag": "full_v16_ab_seed42",
+  "configs": {
+    "Cf=100, Cp=20, V=1": {
+      "val_rtf": -18.81,
+      "val_point": 14.86,
+      "val_cbm": 28.24,
+      "value_uncertainty": 13.38,
+      "rtf_loss_recovered_pct": 71.12,
+      "frac_tstar_lt5": 0.1274
+    },
+    "Cf=100, Cp=20, V=0.5 (low value)": {
+      "val_rtf": -59.41,
+      "val_point": -18.94,
+      "val_cbm": 1.23,
+      "value_uncertainty": 20.17,
+      "rtf_loss_recovered_pct": 33.96,
+      "frac_tstar_lt5": 0.1583
+    },
+    "Cf=100, Cp=50, V=1 (costly maint.)": {
+      "val_rtf": -18.81,
+      "val_point": -2.86,
+      "val_cbm": 2.9,
+      "value_uncertainty": 5.76,
+      "rtf_loss_recovered_pct": 30.61,
+      "frac_tstar_lt5": 0.1081
+    }
+  }
+}

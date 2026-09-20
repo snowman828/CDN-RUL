@@ -1,0 +1,11 @@
+# CDN-RUL -- reproduction environment.
+# Versions are those used for the results reported in the manuscript.
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+scikit-learn==1.9.0
+torch==2.11.0
+xgboost==3.2.0
+h5py==3.16.0
+matplotlib==3.11.1
+tqdm==4.70.0

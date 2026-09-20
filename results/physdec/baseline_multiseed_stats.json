@@ -1,0 +1,74 @@
+{
+  "DS02": {
+    "subset": "DS02",
+    "n_seeds": 5,
+    "baseline_rmse_mean": 7.221,
+    "baseline_rmse_std": 0.972,
+    "baseline_score_mean": 119848.0,
+    "baseline_score_std": 30421.2,
+    "physdec_rmse_mean": 6.157,
+    "paired_t": 2.313,
+    "paired_p": 0.0818,
+    "mean_diff": 1.063,
+    "verdict": "PhysDec better",
+    "per_seed": [
+      {
+        "seed": 42,
+        "baseline_rmse": 7.308,
+        "physdec_rmse": 5.318
+      },
+      {
+        "seed": 2024,
+        "baseline_rmse": 7.006,
+        "physdec_rmse": 6.383
+      },
+      {
+        "seed": 7,
+        "baseline_rmse": 7.225,
+        "physdec_rmse": 5.794
+      },
+      {
+        "seed": 123,
+        "baseline_rmse": 5.919,
+        "physdec_rmse": 6.439
+      },
+      {
+        "seed": 99,
+        "baseline_rmse": 8.645,
+        "physdec_rmse": 6.853
+      }
+    ]
+  },
+  "FD001": {
+    "baseline_rmse_mean": 15.687,
+    "baseline_rmse_std": 0.65,
+    "physdec_rmse_mean": 16.427,
+    "paired_t": -1.515,
+    "paired_p": 0.2044,
+    "verdict": "baseline better"
+  },
+  "FD002": {
+    "baseline_rmse_mean": 27.269,
+    "baseline_rmse_std": 0.504,
+    "physdec_rmse_mean": 27.436,
+    "paired_t": -0.93,
+    "paired_p": 0.405,
+    "verdict": "baseline better"
+  },
+  "FD003": {
+    "baseline_rmse_mean": 15.726,
+    "baseline_rmse_std": 0.791,
+    "physdec_rmse_mean": 15.932,
+    "paired_t": -0.64,
+    "paired_p": 0.5572,
+    "verdict": "baseline better"
+  },
+  "FD004": {
+    "baseline_rmse_mean": 27.46,
+    "baseline_rmse_std": 0.489,
+    "physdec_rmse_mean": 26.899,
+    "paired_t": 2.395,
+    "paired_p": 0.0748,
+    "verdict": "PhysDec better"
+  }
+}

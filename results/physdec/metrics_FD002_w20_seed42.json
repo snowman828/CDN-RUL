@@ -1,0 +1,15 @@
+{
+  "model": "physdec",
+  "subset": "FD002",
+  "tag": "w20",
+  "seed": 42,
+  "use_physics": true,
+  "use_orthogonal": true,
+  "rmse": 29.217,
+  "nasa_score": 17090.8,
+  "device": "cuda",
+  "epochs_used": 17,
+  "train_time_s": 23.7,
+  "mc90_coverage": 0.768,
+  "mc_mean_ci_width": 51.83
+}

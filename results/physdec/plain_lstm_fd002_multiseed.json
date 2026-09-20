@@ -1,0 +1,29 @@
+{
+  "n_seeds": 4,
+  "rmse_mean": 29.09,
+  "rmse_std": 0.157,
+  "score_mean": 15832.6,
+  "score_std": 2728.5,
+  "per_seed": [
+    {
+      "seed": 42,
+      "rmse": 29.303,
+      "score": 15437.3
+    },
+    {
+      "seed": 7,
+      "rmse": 29.043,
+      "score": 13821.1
+    },
+    {
+      "seed": 123,
+      "rmse": 29.087,
+      "score": 14276.1
+    },
+    {
+      "seed": 99,
+      "rmse": 28.928,
+      "score": 19796.1
+    }
+  ]
+}

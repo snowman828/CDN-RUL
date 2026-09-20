@@ -1,0 +1,94 @@
+{
+  "baseline": {
+    "rmse_mean": 26.756,
+    "rmse_std": 0.219,
+    "score_mean": 9854.8,
+    "score_std": 1780.7,
+    "per_seed": [
+      {
+        "seed": 7,
+        "rmse": 27.005,
+        "score": 11806.8
+      },
+      {
+        "seed": 123,
+        "rmse": 26.593,
+        "score": 9438.3
+      },
+      {
+        "seed": 99,
+        "rmse": 26.67,
+        "score": 8319.2
+      }
+    ]
+  },
+  "nophys": {
+    "rmse_mean": 26.526,
+    "rmse_std": 0.123,
+    "score_mean": 10062.2,
+    "score_std": 755.6,
+    "per_seed": [
+      {
+        "seed": 7,
+        "rmse": 26.418,
+        "score": 10774.3
+      },
+      {
+        "seed": 123,
+        "rmse": 26.66,
+        "score": 10142.7
+      },
+      {
+        "seed": 99,
+        "rmse": 26.499,
+        "score": 9269.5
+      }
+    ]
+  },
+  "noorth": {
+    "rmse_mean": 27.189,
+    "rmse_std": 0.331,
+    "score_mean": 12124.7,
+    "score_std": 2363.9,
+    "per_seed": [
+      {
+        "seed": 7,
+        "rmse": 26.807,
+        "score": 14148.2
+      },
+      {
+        "seed": 123,
+        "rmse": 27.358,
+        "score": 12699.6
+      },
+      {
+        "seed": 99,
+        "rmse": 27.401,
+        "score": 9526.4
+      }
+    ]
+  },
+  "full": {
+    "rmse_mean": 27.507,
+    "rmse_std": 0.522,
+    "score_mean": 13401.5,
+    "score_std": 3747.9,
+    "per_seed": [
+      {
+        "seed": 7,
+        "rmse": 28.106,
+        "score": 17550.2
+      },
+      {
+        "seed": 123,
+        "rmse": 27.144,
+        "score": 12393.9
+      },
+      {
+        "seed": 99,
+        "rmse": 27.272,
+        "score": 10260.4
+      }
+    ]
+  }
+}

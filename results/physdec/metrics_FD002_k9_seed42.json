@@ -1,0 +1,15 @@
+{
+  "model": "physdec",
+  "subset": "FD002",
+  "tag": "k9",
+  "seed": 42,
+  "use_physics": true,
+  "use_orthogonal": true,
+  "rmse": 26.726,
+  "nasa_score": 7364.8,
+  "device": "cuda",
+  "epochs_used": 23,
+  "train_time_s": 144.7,
+  "mc90_coverage": 0.772,
+  "mc_mean_ci_width": 52.32
+}

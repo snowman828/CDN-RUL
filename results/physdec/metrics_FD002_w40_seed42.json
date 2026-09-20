@@ -1,0 +1,15 @@
+{
+  "model": "physdec",
+  "subset": "FD002",
+  "tag": "w40",
+  "seed": 42,
+  "use_physics": true,
+  "use_orthogonal": true,
+  "rmse": 25.987,
+  "nasa_score": 6642.9,
+  "device": "cuda",
+  "epochs_used": 23,
+  "train_time_s": 27.6,
+  "mc90_coverage": 0.737,
+  "mc_mean_ci_width": 43.92
+}
