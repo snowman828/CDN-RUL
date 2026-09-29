@@ -1,0 +1,14 @@
+{
+  "model": "physdec",
+  "subset": "FD002",
+  "tag": "baseline_v16_ab",
+  "use_physics": false,
+  "use_orthogonal": false,
+  "rmse": 26.67,
+  "nasa_score": 8319.2,
+  "device": "cuda",
+  "epochs_used": 16,
+  "train_time_s": 18.2,
+  "mc90_coverage": 0.83,
+  "mc_mean_ci_width": 55.74
+}

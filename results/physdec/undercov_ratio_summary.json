@@ -1,0 +1,55 @@
+{
+  "source": "results/physdec/undercov_diagnosis.json",
+  "source_sha256": "0c6c1cd29eea01252443773c90ebb191b153e77445061e70a3435102d67afa7b",
+  "definition": "ratio = test_E_r / cal_E_r per seed; ratio_mean/min/max are taken over the seeds of each subset. Section 4.6 reports ratio_mean as 1.42 (FD002) and 1.67 (FD004), with per-seed ranges 1.32-1.55 and 1.57-1.87.",
+  "subsets": {
+    "FD002": {
+      "n_seeds": 5,
+      "ratio_per_seed": [
+        1.5534032248844012,
+        1.342424812372454,
+        1.470569196718648,
+        1.4094669937826603,
+        1.318736459460124
+      ],
+      "ratio_mean": 1.4189201374436575,
+      "ratio_min": 1.318736459460124,
+      "ratio_max": 1.5534032248844012,
+      "ratio_mean_4dp": 1.4189,
+      "ratio_min_4dp": 1.3187,
+      "ratio_max_4dp": 1.5534
+    },
+    "FD004": {
+      "n_seeds": 5,
+      "ratio_per_seed": [
+        1.6642462455844325,
+        1.572269442890541,
+        1.8665483356948602,
+        1.650104940852465,
+        1.5789670797404727
+      ],
+      "ratio_mean": 1.6664272089525543,
+      "ratio_min": 1.572269442890541,
+      "ratio_max": 1.8665483356948602,
+      "ratio_mean_4dp": 1.6664,
+      "ratio_min_4dp": 1.5723,
+      "ratio_max_4dp": 1.8665
+    },
+    "DS02": {
+      "n_seeds": 5,
+      "ratio_per_seed": [
+        1.6272824217950108,
+        0.6173534550436922,
+        0.794209451264837,
+        1.5578625147865177,
+        0.909805578343136
+      ],
+      "ratio_mean": 1.1013026842466387,
+      "ratio_min": 0.6173534550436922,
+      "ratio_max": 1.6272824217950108,
+      "ratio_mean_4dp": 1.1013,
+      "ratio_min_4dp": 0.6174,
+      "ratio_max_4dp": 1.6273
+    }
+  }
+}

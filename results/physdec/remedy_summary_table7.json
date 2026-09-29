@@ -1,0 +1,118 @@
+{
+  "source": "results\\physdec\\remedy_experiment_20260926_FD002-FD004-DS02.json",
+  "n_seeds": 5,
+  "note": "Five-seed means per subset; 'width_change_pct' is versus the static control on the same runs. Canonical 4-decimal coverage strings are what the manuscript prints.",
+  "subsets": {
+    "FD002": {
+      "control": {
+        "coverage_full": 0.802317,
+        "coverage_4dp": "0.8023",
+        "coverage_display_3dp": "0.802",
+        "width_change_pct_full": 0.0,
+        "width_change_pct_1dp": "0.0"
+      },
+      "engine-worst conformity": {
+        "coverage_full": 0.96139,
+        "coverage_4dp": "0.9614",
+        "coverage_display_3dp": "0.961",
+        "width_change_pct_full": 116.653,
+        "width_change_pct_1dp": "116.7"
+      },
+      "scale recalibration (leave-one-engine-out)": {
+        "coverage_full": 0.811583,
+        "coverage_4dp": "0.8116",
+        "coverage_display_3dp": "0.812",
+        "width_change_pct_full": 1.921,
+        "width_change_pct_1dp": "1.9"
+      },
+      "adaptive conformal inference": {
+        "coverage_full": 0.842308,
+        "coverage_4dp": "0.8423",
+        "coverage_display_3dp": "0.842",
+        "width_change_pct_full": 23.367,
+        "width_change_pct_1dp": "23.4"
+      },
+      "unit-aware conformity": {
+        "coverage_full": 0.834749,
+        "coverage_4dp": "0.8347",
+        "coverage_display_3dp": "0.835",
+        "width_change_pct_full": 9.415,
+        "width_change_pct_1dp": "9.4"
+      }
+    },
+    "FD004": {
+      "control": {
+        "coverage_full": 0.752419,
+        "coverage_4dp": "0.7524",
+        "coverage_display_3dp": "0.752",
+        "width_change_pct_full": 0.0,
+        "width_change_pct_1dp": "0.0"
+      },
+      "engine-worst conformity": {
+        "coverage_full": 0.998387,
+        "coverage_4dp": "0.9984",
+        "coverage_display_3dp": "0.998",
+        "width_change_pct_full": 307.361,
+        "width_change_pct_1dp": "307.4"
+      },
+      "scale recalibration (leave-one-engine-out)": {
+        "coverage_full": 0.770161,
+        "coverage_4dp": "0.7702",
+        "coverage_display_3dp": "0.770",
+        "width_change_pct_full": 3.986,
+        "width_change_pct_1dp": "4.0"
+      },
+      "adaptive conformal inference": {
+        "coverage_full": 0.901508,
+        "coverage_4dp": "0.9015",
+        "coverage_display_3dp": "0.902",
+        "width_change_pct_full": 43.351,
+        "width_change_pct_1dp": "43.4"
+      },
+      "unit-aware conformity": {
+        "coverage_full": 0.78629,
+        "coverage_4dp": "0.7863",
+        "coverage_display_3dp": "0.786",
+        "width_change_pct_full": 7.71,
+        "width_change_pct_1dp": "7.7"
+      }
+    },
+    "DS02": {
+      "control": {
+        "coverage_full": 0.846654,
+        "coverage_4dp": "0.8467",
+        "coverage_display_3dp": "0.847",
+        "width_change_pct_full": 0.0,
+        "width_change_pct_1dp": "0.0"
+      },
+      "engine-worst conformity": {
+        "coverage_full": 0.846654,
+        "coverage_4dp": "0.8467",
+        "coverage_display_3dp": "0.847",
+        "width_change_pct_full": 0.0,
+        "width_change_pct_1dp": "0.0"
+      },
+      "scale recalibration (leave-one-engine-out)": {
+        "coverage_full": 0.846654,
+        "coverage_4dp": "0.8467",
+        "coverage_display_3dp": "0.847",
+        "width_change_pct_full": 0.0,
+        "width_change_pct_1dp": "0.0"
+      },
+      "adaptive conformal inference": {
+        "coverage_full": 0.899402,
+        "coverage_4dp": "0.8994",
+        "coverage_display_3dp": "0.899",
+        "width_change_pct_full": 16.534,
+        "width_change_pct_1dp": "16.5"
+      },
+      "unit-aware conformity": {
+        "coverage_full": 0.999935,
+        "coverage_4dp": "0.9999",
+        "coverage_display_3dp": "1.000",
+        "width_change_pct_full": 670.279,
+        "width_change_pct_1dp": "670.3"
+      }
+    }
+  }
+}

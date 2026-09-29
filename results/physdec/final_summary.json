@@ -1,0 +1,58 @@
+{
+  "subsets": [
+    "FD001",
+    "FD002",
+    "FD003",
+    "FD004",
+    "DS02"
+  ],
+  "baselines": {
+    "FD001": {
+      "name": "LSTM",
+      "rmse": 14.534,
+      "nasa_score": 353.8
+    },
+    "FD002": {
+      "name": "LSTM-Cond",
+      "rmse": 27.356,
+      "nasa_score": 11808.4
+    },
+    "FD003": {
+      "name": "LSTM",
+      "rmse": 14.473,
+      "nasa_score": 411.8
+    },
+    "FD004": {
+      "name": "LSTM-Cond",
+      "rmse": 26.671,
+      "nasa_score": 5916.9
+    },
+    "DS02": {
+      "name": "LSTM",
+      "rmse": 6.368,
+      "nasa_score": 95770.8
+    }
+  },
+  "physdec_best": {
+    "FD001": {
+      "rmse": 15.904,
+      "nasa_score": 557.4
+    },
+    "FD002": {
+      "rmse": 27.188,
+      "nasa_score": 10895.9
+    },
+    "FD003": {
+      "rmse": 15.389,
+      "nasa_score": 708.1
+    },
+    "FD004": {
+      "rmse": 27.084,
+      "nasa_score": 5876.5
+    },
+    "DS02": {
+      "rmse": 5.366,
+      "nasa_score": 59592.1
+    }
+  }
+}

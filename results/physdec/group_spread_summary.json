@@ -1,0 +1,80 @@
+{
+  "source_files": {
+    "cdn": "results/physdec/conformal_group_stats.json",
+    "cdn_sha256": "a94e32ab18f2423c350c0e6bff3ef837fa201526fb29f15e5747a511963ddba6",
+    "lstm_and_cross_check": "results/physdec/conformal_group_compare.json",
+    "lstm_sha256": "ee3959f5bfbde093b8e40d97aa4b7ea4174b4f0b747519610f91c3c2740df96d"
+  },
+  "definition": "Per-group coverage spread = max - min over the six DS02 condition groups of the per-group coverage averaged over the seeds. Both models use this convention; it is the one Table 4 and Section 4.7 report.",
+  "subsets": {
+    "DS02": {
+      "n_seeds": 5,
+      "CDN": {
+        "marginal_spread": 0.04800000000000004,
+        "group_cond_spread": 0.11299999999999999,
+        "marginal_spread_4dp": 0.048,
+        "group_cond_spread_4dp": 0.113,
+        "per_group_marginal": [
+          0.835,
+          0.834,
+          0.836,
+          0.882,
+          0.864,
+          0.837
+        ],
+        "per_group_group_cond": [
+          0.822,
+          0.808,
+          0.887,
+          0.903,
+          0.878,
+          0.79
+        ]
+      },
+      "LSTM": {
+        "marginal_spread": 0.08908349736336907,
+        "group_cond_spread": 0.051867176157997186,
+        "marginal_spread_4dp": 0.0891,
+        "group_cond_spread_4dp": 0.0519,
+        "per_group_marginal": [
+          0.8967054263565891,
+          0.9857889237199582,
+          0.9666581632653061,
+          0.9839388145315487,
+          0.9313814571765102,
+          0.9493478684056842
+        ],
+        "per_group_group_cond": [
+          0.9092635658914728,
+          0.9462382445141067,
+          0.942015306122449,
+          0.9310707456978967,
+          0.96113074204947,
+          0.9371617675686198
+        ]
+      }
+    }
+  },
+  "other_convention": {
+    "definition": "Per-seed spread, then averaged over the five seeds (LSTM only): a different statistic. It cannot be computed for CDN-RUL, whose deposit holds no per-seed per-group coverage. Not quoted by the manuscript.",
+    "LSTM_marginal_per_seed_spread_mean": 0.11298306609355782,
+    "LSTM_group_cond_per_seed_spread_mean": 0.0740881234611754,
+    "LSTM_marginal_per_seed_spread_mean_4dp": 0.113,
+    "LSTM_group_cond_per_seed_spread_mean_4dp": 0.0741,
+    "LSTM_per_seed_marginal_spreads": [
+      0.2067215863527011,
+      0.03305373920461441,
+      0.13965123690100345,
+      0.0792866516002041,
+      0.10620211640926602
+    ],
+    "LSTM_per_seed_group_cond_spreads": [
+      0.13152292775388208,
+      0.06668054934883305,
+      0.05680437019906159,
+      0.059513963667033765,
+      0.05591880633706647
+    ]
+  },
+  "cross_file_note": "conformal_group_compare.json yields 0.1150 for the CDN group-conditional spread, 0.002 above the 0.1130 used here: its aggregated entry stores per-group coverage rounded to three decimals for a single aggregated run, whereas the stats file averages per-seed per-group coverage before rounding. Section 4.7 and Table 4 quote the stats-file value; the difference is at the reported precision."
+}
