@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or the deposited data, please cite the accompanying manuscript."
-title: "Auditing the Validity of RUL Prediction Intervals under Cross-Condition Deployment: A Protocol and the CDN-RUL Reference Model"
+title: "Cross-Condition Remaining Useful Life Prediction for Condition-Based Maintenance: Auditing Interval Validity, the Condition-Decoupled Normalization (CDN-RUL) Reference Model, and a Quantified Repair Frontier"
 authors:
   - family-names: "Wang"
     given-names: "Dawei"
@@ -19,7 +19,7 @@ license: MIT
 references:
   - type: data
     title: "CDN-RUL: per-seed metrics, conformal evaluation and maintenance-decision artifacts"
-    doi: 10.5281/zenodo.22850160
+    doi: 10.5281/zenodo.23026462
     authors:
       - family-names: "Wang"
         given-names: "Dawei"

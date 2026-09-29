@@ -2,8 +2,7 @@
 
 Code for the manuscript:
 
-> **Auditing the Validity of RUL Prediction Intervals under Cross-Condition
-> Deployment: A Protocol and the CDN-RUL Reference Model**
+> **Cross-Condition Remaining Useful Life Prediction for Condition-Based Maintenance: Auditing Interval Validity, the Condition-Decoupled Normalization (CDN-RUL) Reference Model, and a Quantified Repair Frontier**
 
 The contribution of the paper is a **protocol and an audit of uncertainty
 validity**, not an accuracy leaderboard entry. The code here reproduces every
@@ -16,7 +15,9 @@ conformal and group-conditional coverage statistics, the engine-level
 bootstrap, the reweighting test and its placebo control, and the
 maintenance-policy outputs -- are deposited and citable:
 
-> **10.5281/zenodo.22850160** -- https://doi.org/10.5281/zenodo.22850160
+> **10.5281/zenodo.23026462** -- https://doi.org/10.5281/zenodo.23026462
+>
+> All versions of this deposit: https://doi.org/10.5281/zenodo.22850159
 
 The deposit is also mirrored in this repository under `results/physdec/`, so
 cloning the code is sufficient to reproduce the paper without a separate
